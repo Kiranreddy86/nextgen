@@ -1,0 +1,1271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nextgen Technologies</title>
+    <link rel="shortcut icon" type="image/x-icon" href="weblogo.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  </head>
+  <body>
+    
+    <header class="top-navbar">
+        <div class="left-contact">
+            <span><i class="fas fa-phone"></i> <span class="blink">+91 7901267555</span></span>
+            <span><i class="fas fa-envelope"></i> info@ngtorg.com</span>
+        </div>
+        <div class="right-social">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </header>
+      
+      <nav class="main-navbar">
+        <div class="logo">
+          <a href="#home">
+            <img src="logo3.png" alt="Logo">
+            
+          </a>
+        </div>
+        <div class="nav-links">
+          <a href="#home"><b>Home</b></a>
+          <a href="#courses"><b>Courses</b></a>
+          <a href="#visa"><b>Visa</b></a>
+          <a href="#jobs"><b>Tech Support</b></a>
+          <a href="#tech-support"><b>Jobs</b></a>
+          <a href="#about"><b>About</b></a>
+          <a href="#contact"><b>Contact Us</b></a>
+        </div>
+        <div class="nav-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+      
+    
+    <div id="home" class="section home-bg">
+        <div class="content">
+            <p id="typing-text"></p>
+          </div>
+          
+    </div>
+    
+
+    <div id="courses" class="courses-bg">
+      <h1>Our Courses</h1>
+      <div class="course-container">
+        <button class="scroll-btn left" onclick="scrollCourses('left')">
+          ❮
+        </button>
+        <div class="course-list">
+          <div class="course-item">
+            <img src="Microsoft-Power-BI-Symbol.png" alt="Power BI Logo" />
+            <h2>Power BI</h2>
+            <button onclick="showModal('powerbi')">Learn More</button>
+          </div>
+          <div class="course-item">
+            <img src="dev1.png" alt="DevOps Logo" />
+            <h2>DevOps</h2>
+            <button onclick="showModal('devops')">Learn More</button>
+          </div>
+          <div class="course-item">
+            <img src="453-4533338_oracle-logo-for-website-new-oracle-logo-png-removebg-preview.png" alt="OBIEE Logo" />
+            <h2>OBIEE/OAS</h2>
+            <button onclick="showModal('oracle')">Learn More</button>
+          </div>
+          <div class="course-item">
+            <img src="j1.png" alt="Java Logo" />
+            <h2>Java</h2>
+            <button onclick="showModal('java')">Learn More</button>
+          </div>
+          <div class="course-item">
+            <img src="py.png" alt="Python Logo" />
+            <h2>Python</h2>
+            <button onclick="showModal('python')">Learn More</button>
+          </div>
+          
+          
+        </div>
+        <button class="scroll-btn right" onclick="scrollCourses('right')">
+          ❯
+        </button>
+      </div>
+      
+    </div>
+    <div id="visa" class=" visa-bg">
+        <h1>Visa Services</h1>
+        
+        <section class=" visa-bg" id="visa">
+            <div class="container">
+                
+                <div class="feature">
+                    <div class="icon">🌍</div>
+                    <h3>Global Coverage</h3>
+                    <p>We provide visa services for countries all around the world.</p>
+                </div>
+                <div class="feature">
+                    <div class="icon">📝</div>
+                    <h3>Documentation Assistance</h3>
+                    <p>Our experts help you with the required documentation for your visa application.</p>
+                </div>
+                <div class="feature">
+                    <div class="icon">🚀</div>
+                    <h3>Express Processing</h3>
+                    <p>Fast and reliable visa processing to get you where you need to go.</p>
+                </div>
+                <div class="feature">
+                    <div class="icon">👨‍💼</div>
+                    <h3>Expert Consultation</h3>
+                    <p>Consult with our visa experts for personalized guidance.</p>
+                </div>
+                <div class="feature">
+                    <div class="icon">🔒</div>
+                    <h3>Secure Application</h3>
+                    <p>We ensure that your application is processed securely and confidentially.</p>
+                </div>
+                <div class="feature">
+                    <div class="icon">📅</div>
+                    <h3>Appointment Scheduling</h3>
+                    <p>We help you schedule appointments for visa interviews and biometric capture.</p>
+                </div>
+                
+            </div>
+        </section>
+    </div>
+
+    <div id="jobs" class="jobs-bg">
+        <h1>Tech Support</h1>
+        
+        <section class="section jobs-bg" id="jobs">
+            <div class="container2">
+                
+                <div class="feature2">
+                    <div class="feature-content">
+                        <div class="image-container">
+                            <img src="pa.jpg" alt="Personalized Assistance">
+                        </div>
+                        <div class="data-container">
+                            <h3>Personalized Assistance</h3>
+                            <p>Get personalized tech support tailored to your specific needs, ensuring your systems are optimized and running smoothly.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="feature2">
+                    <div class="feature-content">
+                        <div class="image-container">
+                            <img src="26.jpg" alt="24/7 Support">
+                        </div>
+                        <div class="data-container">
+                            <h3>24/7 Support</h3>
+                            <p>Our team is available around the clock to provide immediate assistance, ensuring minimal downtime and maximum productivity.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="feature2">
+                    <div class="feature-content">
+                        <div class="image-container">
+                            <img src="rss.jpg" alt="Remote and On-site Services">
+                        </div>
+                        <div class="data-container">
+                            <h3>Remote and On-site Services</h3>
+                            <p>Whether you need quick remote support or comprehensive on-site assistance, we've got you covered with expert solutions.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </div>
+
+    <div id="tech-support" class=" tech-support-bg">
+        <div class="section-content">
+            <div class="tech-support-content">
+                <div class="tech-support-image">
+                    <img src="js.jpg" alt="Tech Support Image" />
+                </div>
+                <div class="tech-support-data">
+                    <h1>Jobs Support</h1>
+                    <div class="support-details">
+                        <p>
+                            At NextGen Technologies, we provide comprehensive tech support services designed to
+                            ensure your workforce operates efficiently. Our services encompass a wide range of
+                            solutions including troubleshooting, system maintenance, and software updates, tailored
+                            to meet the specific needs of your organization.
+                        </p>
+                        <p>
+                            Our dedicated tech support team operates around the clock, offering both remote and
+                            on-site assistance to swiftly resolve any technical issues that may arise. Whether it's
+                            troubleshooting software glitches or optimizing hardware performance, we're here to
+                            support your business operations seamlessly.
+                        </p>
+                        <p>
+                            With expertise spanning multiple industries and technologies, our seasoned technicians
+                            bring years of experience to the table. Whether you're a startup looking to establish a
+                            robust IT infrastructure or a large enterprise navigating complex systems, we provide
+                            customized solutions to align with your unique business requirements.
+                        </p>
+                        <p>
+                            Partner with us for reliable, responsive, and expert tech support solutions that empower
+                            your business to thrive in today's dynamic digital landscape. Contact us today to learn
+                            more about how we can optimize your IT operations and drive business growth.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="upload-container">
+            <label for="file-upload" class="file-upload-label">
+                Upload Your Resume
+
+              <input
+                type="file"
+                id="file-upload"
+                name="file-upload"
+                class="file-upload-input"
+                accept=".pdf,.doc,.docx"
+              />
+            </label>
+            <button type="button" class="upload-button">Submit</button>
+          </div>
+        </div> -->
+    </div>
+    
+    <div class="testimonials-section">
+        <h1>What our customers are saying</h1>
+        <div class="testimonials">
+            <div class="testimonial">
+                <p class="quote">“I have been attending the NextGen Technologies Coaching Center for the past six months, and I must say it has been an incredible experience. From the moment I enrolled, the staff and instructors have been nothing but supportive and knowledgeable”</p>
+                <div class="author">
+                    <hr>
+                    <strong>Kalyan. B</strong>
+                    <p>OBIEE/OAS</p>
+                </div>
+            </div>
+            <div class="testimonial">
+                <p class="quote">“I recently finished the Python course at NextGen Technologies Coaching Center, and it was fantastic. As someone new to programming, I was nervous, but the course made it easy to learn.”</p>
+                <div class="author">
+                    <hr>
+                    <strong>Praveen. R</strong>
+                    <p>PYTHON & ML</p>
+                </div>
+            </div>
+            <div class="testimonial">
+                <p class="quote">“I recently finished the Power BI course at NextGen Technologies Coaching Center, and it was an outstanding experience. As someone who handles data frequently, I aimed to enhance my data visualization capabilities, and this course provided exactly what I needed.The syllabus is excellently organized. ”</p>
+                <div class="author">
+                    <hr>
+                    <strong>Pranay Varma</strong>
+                    <p>POWER BI</p>
+                </div>
+            </div>
+        </div>
+    </div>
+      
+
+    <section id="about" class="about-section">
+        <div class="about-content">
+    <h2>About Us</h2>
+    <p>Welcome to our consulting firm where we specialize in guiding individuals towards successful careers through expert advice on job opportunities and educational courses.</p>
+    <p>Our mission is to empower you with the knowledge and resources needed to navigate today's competitive job market. Whether you're seeking career advice, exploring new opportunities, or enhancing your skills through courses, we are here to support your journey.</p>
+    <p>At our core, we believe in personalized consulting that aligns with your unique career aspirations. With years of experience and a dedicated team of professionals, we strive to make a meaningful impact on your professional growth.</p>
+</div>
+
+        <div class="about-image">
+          <img src="ab.jpg" alt="About Us Image">
+        </div>
+      </section>
+      
+    
+
+      <section id="contact" class="contact-section">
+        <div class="contact-grid">
+          <div class="contact-details">
+            <h2>Contact Details</h2>
+            <p><strong>Address:</strong>13th Floor Manjeera Trinity,Beside Lulu Mall, JNTU Rd, Hyderabad-500072</p>
+            <p><strong>Email:</strong> info@ngtorg.com</p>
+            <p><strong>Phone:</strong> +91 7901267555</p>
+          </div>
+          <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="4e92995d-8b7c-4aa7-a250-f7a8097c5e6a">
+              <input type="text" name="name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your Email" required>
+              <input type="number" name="contact" placeholder="Your Contact" required>
+              <input type="file" id="resume" name="resume" required>
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <div class="footer-container">
+        <div class="footer-section contact">
+            <h3>Contact Us</h3>
+            <p><i class="fa fa-map-marker"></i> 13th Floor Manjeera Trinity,<br>
+            Beside Lulu Mall, <br>
+            JNTU Rd,<br>
+            Hyderabad-500072</p>
+            <p><i class="fa fa-phone"></i> +91-7901267555</p>
+        </div>
+        <div class="footer-section explore">
+            <h3>Explore</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Student Visa</a></li>
+                <li><a href="#">Job opportunities</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="footer-section newsletter">
+            <h3>Newsletter</h3>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="4e92995d-8b7c-4aa7-a250-f7a8097c5e6a">
+                <input type="email" placeholder="Email" required>
+                <button type="submit">SUBSCRIBE</button>
+            </form>
+        </div>
+        <div class="footer-section connect">
+            <h3>Connect With Us</h3>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="mark">
+            <p>Copyright © 2024 | NextGen Technologies</p>
+            <p id="visit-count">0</p>
+        </div>
+    </footer>
+    
+      
+      
+    <!-- Modals -->
+    <div id="modal-powerbi" class="modal">
+      <div class="modal-content">
+          <span class="close" onclick="hideModal('powerbi')">&times;</span>
+          <h2>Power BI</h2>
+          
+          <h3>1. Introduction to Power BI</h3>
+          
+          <h4>1.1. Overview of Power BI</h4>
+          <ul>
+              <li>What is Power BI?</li>
+              <li>Key features and benefits</li>
+              <li>Power BI ecosystem (Desktop, Service, Mobile)</li>
+          </ul>
+          
+          <h4>1.2. Getting Started with Power BI Desktop</h4>
+          <ul>
+              <li>Installing Power BI Desktop</li>
+              <li>Interface and navigation</li>
+              <li>Connecting to data sources</li>
+          </ul>
+          
+          <h3>2. Data Preparation and Transformation</h3>
+          
+          <h4>2.1. Data Loading</h4>
+          <ul>
+              <li>Importing data from various sources (Excel, SQL, Web, etc.)</li>
+              <li>Direct Query vs Import Mode</li>
+          </ul>
+          
+          <h4>2.2. Data Transformation using Power Query Editor</h4>
+          <ul>
+              <li>Understanding Power Query Editor</li>
+              <li>Basic transformations (filtering, sorting, renaming)</li>
+              <li>Advanced transformations (merging, appending, pivoting, unpivoting)</li>
+              <li>Data types and data profiling</li>
+          </ul>
+          
+          <h3>3. Data Modeling</h3>
+          
+          <h4>3.1. Creating Relationships</h4>
+          <ul>
+              <li>Understanding relationships</li>
+              <li>Creating and managing relationships</li>
+              <li>Cardinality and cross-filter direction</li>
+          </ul>
+          
+          <h4>3.2. Creating Calculated Columns and Measures</h4>
+          <ul>
+              <li>Introduction to DAX (Data Analysis Expressions)</li>
+              <li>Basic DAX functions (SUM, AVERAGE, COUNT)</li>
+              <li>Advanced DAX functions (CALCULATE, FILTER, ALL)</li>
+          </ul>
+          
+          <h4>3.3. Optimizing Data Models</h4>
+          <ul>
+              <li>Star schema design</li>
+              <li>Data granularity</li>
+              <li>Performance optimization tips</li>
+          </ul>
+          
+          <h3>4. Data Visualization</h3>
+          
+          <h4>4.1. Creating Basic Visualizations</h4>
+          <ul>
+              <li>Types of visualizations (bar chart, line chart, pie chart, etc.)</li>
+              <li>Choosing the right visualization for the data</li>
+          </ul>
+          
+          <h4>4.2. Advanced Visualization Techniques</h4>
+          <ul>
+              <li>Custom visuals</li>
+              <li>Conditional formatting</li>
+              <li>Drill-through and drill-down</li>
+              <li>Bookmarks and buttons for interactivity</li>
+          </ul>
+          
+          <h4>4.3. Design and Formatting</h4>
+          <ul>
+              <li>Designing effective reports</li>
+              <li>Theming and branding</li>
+              <li>Best practices for visual design</li>
+          </ul>
+          
+          <h3>5. Advanced Topics</h3>
+          
+          <h4>5.1. Power BI Service</h4>
+          <ul>
+              <li>Publishing reports to Power BI Service</li>
+              <li>Sharing and collaboration</li>
+              <li>Understanding workspaces, dashboards, and apps</li>
+          </ul>
+          
+          <h4>5.2. Power BI Mobile</h4>
+          <ul>
+              <li>Overview of Power BI Mobile</li>
+              <li>Optimizing reports for mobile view</li>
+          </ul>
+          
+          <h4>5.3. Power BI and Excel Integration</h4>
+          <ul>
+              <li>Using Power BI Publisher for Excel</li>
+              <li>Analyzing Power BI data in Excel</li>
+          </ul>
+          
+          <h4>5.4. Row-Level Security (RLS)</h4>
+          <ul>
+              <li>Implementing RLS in Power BI</li>
+              <li>Managing roles and permissions</li>
+          </ul>
+          
+          <h4>5.5. Data Refresh and Gateway</h4>
+          <ul>
+              <li>Scheduled data refresh</li>
+              <li>Configuring and using data gateways</li>
+          </ul>
+          
+          <h3>6. Real-World Case Studies and Projects</h3>
+          
+          <h4>6.1. Industry-specific use cases</h4>
+          <ul>
+              <li>Examples from finance, marketing, sales, etc.</li>
+          </ul>
+          
+          <h4>6.2. Capstone Project</h4>
+          <ul>
+              <li>Building a comprehensive Power BI report/dashboard from scratch</li>
+              <li>Presenting the project and receiving feedback</li>
+          </ul>
+          
+          <h3>7. Resources and Next Steps</h3>
+          
+          <h4>7.1. Continuing Education</h4>
+          <ul>
+              <li>Recommended books, blogs, and online courses</li>
+              <li>Joining Power BI community forums and user groups</li>
+          </ul>
+          
+          <h4>7.2. Certification Preparation</h4>
+          <ul>
+              <li>Overview of Power BI certification exams (PL-300, etc.)</li>
+              <li>Study tips and resources</li>
+          </ul>
+          
+      </div>
+  </div>
+  <!-- The Modal -->
+  <div id="modal-devops" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="hideModal('devops')">&times;</span>
+        <h2>DevOps Curriculum</h2>
+        
+        <h3>1. Introduction to DevOps</h3>
+        
+        <h4>1.1. Overview of DevOps</h4>
+        <ul>
+            <li>What is DevOps?</li>
+            <li>History and evolution of DevOps</li>
+            <li>Key principles and benefits of DevOps</li>
+            <li>DevOps culture and mindset</li>
+        </ul>
+        
+        <h4>1.2. DevOps Lifecycle</h4>
+        <ul>
+            <li>Continuous Integration (CI)</li>
+            <li>Continuous Delivery (CD)</li>
+            <li>Continuous Deployment</li>
+            <li>Continuous Monitoring</li>
+        </ul>
+        
+        <h3>2. Version Control Systems</h3>
+        
+        <h4>2.1. Introduction to Version Control</h4>
+        <ul>
+            <li>What is version control?</li>
+            <li>Benefits of version control</li>
+            <li>Types of version control systems</li>
+        </ul>
+        
+        <h4>2.2. Git and GitHub</h4>
+        <ul>
+            <li>Introduction to Git</li>
+            <li>Basic Git commands</li>
+            <li>Branching and merging</li>
+            <li>Using GitHub for collaboration</li>
+        </ul>
+        
+        <h3>3. Continuous Integration</h3>
+        
+        <h4>3.1. CI Concepts</h4>
+        <ul>
+            <li>Introduction to CI</li>
+            <li>Benefits of CI</li>
+            <li>CI tools overview</li>
+        </ul>
+        
+        <h4>3.2. Jenkins</h4>
+        <ul>
+            <li>Introduction to Jenkins</li>
+            <li>Installing and configuring Jenkins</li>
+            <li>Creating Jenkins pipelines</li>
+            <li>Integrating Jenkins with other tools</li>
+        </ul>
+        
+        <h3>4. Continuous Delivery and Deployment</h3>
+        
+        <h4>4.1. CD Concepts</h4>
+        <ul>
+            <li>Introduction to CD</li>
+            <li>Benefits of CD</li>
+            <li>CD tools overview</li>
+        </ul>
+        
+        <h4>4.2. Kubernetes and Docker</h4>
+        <ul>
+            <li>Introduction to containerization</li>
+            <li>Docker basics</li>
+            <li>Creating and managing Docker containers</li>
+            <li>Introduction to Kubernetes</li>
+            <li>Deploying applications on Kubernetes</li>
+        </ul>
+        
+        <h3>5. Infrastructure as Code</h3>
+        
+        <h4>5.1. Introduction to IaC</h4>
+        <ul>
+            <li>What is Infrastructure as Code?</li>
+            <li>Benefits of IaC</li>
+            <li>Tools for IaC</li>
+        </ul>
+        
+        <h4>5.2. Terraform</h4>
+        <ul>
+            <li>Introduction to Terraform</li>
+            <li>Installing and configuring Terraform</li>
+            <li>Writing Terraform configurations</li>
+            <li>Provisioning infrastructure with Terraform</li>
+        </ul>
+        
+        <h3>6. Continuous Monitoring</h3>
+        
+        <h4>6.1. Monitoring Concepts</h4>
+        <ul>
+            <li>Importance of monitoring in DevOps</li>
+            <li>Types of monitoring (infrastructure, application, etc.)</li>
+            <li>Monitoring tools overview</li>
+        </ul>
+        
+        <h4>6.2. Prometheus and Grafana</h4>
+        <ul>
+            <li>Introduction to Prometheus</li>
+            <li>Setting up Prometheus</li>
+            <li>Introduction to Grafana</li>
+            <li>Visualizing metrics with Grafana</li>
+        </ul>
+        
+        <h3>7. Security in DevOps</h3>
+        
+        <h4>7.1. DevSecOps Concepts</h4>
+        <ul>
+            <li>What is DevSecOps?</li>
+            <li>Benefits of integrating security into DevOps</li>
+            <li>DevSecOps tools and practices</li>
+        </ul>
+        
+        <h4>7.2. Security Tools</h4>
+        <ul>
+            <li>Overview of security tools (e.g., SonarQube, OWASP ZAP)</li>
+            <li>Integrating security tools into CI/CD pipeline</li>
+        </ul>
+        
+        <h3>8. DevOps Best Practices</h3>
+        
+        <h4>8.1. Agile and Scrum</h4>
+        <ul>
+            <li>Introduction to Agile methodologies</li>
+            <li>Scrum framework</li>
+            <li>Implementing Agile in DevOps</li>
+        </ul>
+        
+        <h4>8.2. Collaboration and Communication</h4>
+        <ul>
+            <li>Importance of collaboration in DevOps</li>
+            <li>Tools for effective communication (e.g., Slack, Microsoft Teams)</li>
+        </ul>
+        
+        <h3>9. Real-World Case Studies and Projects</h3>
+        
+        <h4>9.1. Industry-specific use cases</h4>
+        <ul>
+            <li>Examples from finance, healthcare, e-commerce, etc.</li>
+        </ul>
+        
+        <h4>9.2. Capstone Project</h4>
+        <ul>
+            <li>Building a comprehensive DevOps pipeline from scratch</li>
+            <li>Presenting the project and receiving feedback</li>
+        </ul>
+        
+        <h3>10. Resources and Next Steps</h3>
+        
+        <h4>10.1. Continuing Education</h4>
+        <ul>
+            <li>Recommended books, blogs, and online courses</li>
+            <li>Joining DevOps community forums and user groups</li>
+        </ul>
+        
+        <h4>10.2. Certification Preparation</h4>
+        <ul>
+            <li>Overview of DevOps certification exams (e.g., Docker Certified Associate, Kubernetes Certified Administrator)</li>
+            <li>Study tips and resources</li>
+        </ul>
+        
+    </div>
+</div>
+
+<div id="modal-oracle" class="modal">
+  <div class="modal-content">
+      <span class="close" onclick="hideModal('oracle')">&times;</span>
+      <h2>Oracle OBIEE/OAS Curriculum</h2>
+      
+      <h3>1. Introduction to OBIEE/OAS</h3>
+      
+      <h4>1.1. Overview of OBIEE/OAS</h4>
+      <ul>
+          <li>What is OBIEE/OAS?</li>
+          <li>History and evolution of OBIEE/OAS</li>
+          <li>Key features and benefits</li>
+          <li>OBIEE/OAS architecture</li>
+      </ul>
+      
+      <h4>1.2. OBIEE/OAS Components</h4>
+      <ul>
+          <li>Oracle BI Server</li>
+          <li>Oracle BI Presentation Services</li>
+          <li>Oracle BI Scheduler</li>
+          <li>Oracle BI Publisher</li>
+      </ul>
+      
+      <h3>2. Installation and Configuration</h3>
+      
+      <h4>2.1. Installing OBIEE/OAS</h4>
+      <ul>
+          <li>System requirements</li>
+          <li>Installation steps</li>
+          <li>Post-installation configuration</li>
+      </ul>
+      
+      <h4>2.2. Configuring OBIEE/OAS</h4>
+      <ul>
+          <li>Configuration tools</li>
+          <li>Setting up the RPD file</li>
+          <li>Configuring BI Publisher</li>
+      </ul>
+      
+      <h3>3. Repository (RPD) Development</h3>
+      
+      <h4>3.1. Repository Basics</h4>
+      <ul>
+          <li>Introduction to RPD</li>
+          <li>Three layers of RPD: Physical, Business Model, Presentation</li>
+      </ul>
+      
+      <h4>3.2. Building the Physical Layer</h4>
+      <ul>
+          <li>Importing data sources</li>
+          <li>Defining physical joins</li>
+      </ul>
+      
+      <h4>3.3. Building the Business Model Layer</h4>
+      <ul>
+          <li>Creating business models</li>
+          <li>Defining logical tables and joins</li>
+      </ul>
+      
+      <h4>3.4. Building the Presentation Layer</h4>
+      <ul>
+          <li>Creating presentation tables and columns</li>
+          <li>Organizing presentation layer</li>
+      </ul>
+      
+      <h4>3.5. Testing and Validating the Repository</h4>
+      <ul>
+          <li>Consistency checking</li>
+          <li>Deploying RPD to the server</li>
+          <li>Testing the repository</li>
+      </ul>
+      
+      <h3>4. Creating Analyses and Dashboards</h3>
+      
+      <h4>4.1. Creating Analyses</h4>
+      <ul>
+          <li>Introduction to analyses</li>
+          <li>Using the Analysis Editor</li>
+          <li>Creating different types of analyses (tables, charts, pivot tables)</li>
+      </ul>
+      
+      <h4>4.2. Creating Dashboards</h4>
+      <ul>
+          <li>Introduction to dashboards</li>
+          <li>Dashboard layout and design</li>
+          <li>Adding analyses to dashboards</li>
+          <li>Using prompts and filters in dashboards</li>
+      </ul>
+      
+      <h3>5. Advanced OBIEE/OAS Features</h3>
+      
+      <h4>5.1. Actionable Intelligence</h4>
+      <ul>
+          <li>Introduction to actions</li>
+          <li>Creating and configuring actions</li>
+      </ul>
+      
+      <h4>5.2. Agents and Alerts</h4>
+      <ul>
+          <li>Introduction to agents</li>
+          <li>Creating and scheduling agents</li>
+          <li>Configuring delivery options</li>
+      </ul>
+      
+      <h4>5.3. BI Publisher</h4>
+      <ul>
+          <li>Creating and managing reports</li>
+          <li>Data modeling in BI Publisher</li>
+          <li>Report layout and formatting</li>
+      </ul>
+      
+      <h3>6. Security in OBIEE/OAS</h3>
+      
+      <h4>6.1. Security Overview</h4>
+      <ul>
+          <li>Introduction to OBIEE/OAS security</li>
+          <li>Authentication and authorization</li>
+      </ul>
+      
+      <h4>6.2. Implementing Security</h4>
+      <ul>
+          <li>Creating users and roles</li>
+          <li>Setting permissions and privileges</li>
+          <li>Row-level security</li>
+      </ul>
+      
+      <h3>7. Performance Tuning and Optimization</h3>
+      
+      <h4>7.1. Performance Tuning Concepts</h4>
+      <ul>
+          <li>Introduction to performance tuning</li>
+          <li>Identifying performance bottlenecks</li>
+      </ul>
+      
+      <h4>7.2. Optimizing OBIEE/OAS</h4>
+      <ul>
+          <li>Optimizing repository design</li>
+          <li>Query performance optimization</li>
+          <li>Caching strategies</li>
+      </ul>
+      
+      <h3>8. Real-World Case Studies and Projects</h3>
+      
+      <h4>8.1. Industry-specific Use Cases</h4>
+      <ul>
+          <li>Examples from finance, healthcare, retail, etc.</li>
+      </ul>
+      
+      <h4>8.2. Capstone Project</h4>
+      <ul>
+          <li>Building a comprehensive OBIEE/OAS solution from scratch</li>
+          <li>Presenting the project and receiving feedback</li>
+      </ul>
+      
+      <h3>9. Resources and Next Steps</h3>
+      
+      <h4>9.1. Continuing Education</h4>
+      <ul>
+          <li>Recommended books, blogs, and online courses</li>
+          <li>Joining OBIEE/OAS community forums and user groups</li>
+      </ul>
+      
+      <h4>9.2. Certification Preparation</h4>
+      <ul>
+          <li>Overview of OBIEE/OAS certification exams</li>
+          <li>Study tips and resources</li>
+      </ul>
+      
+  </div>
+</div>
+<div id="modal-java" class="modal">
+  <div class="modal-content">
+      <span class="close" onclick="hideModal('java')">&times;</span>
+      <h2>Java Curriculum</h2>
+      
+      <h3>1. Introduction to Java</h3>
+      
+      <h4>1.1. Java Basics</h4>
+      <ul>
+          <li>Introduction to Java programming language</li>
+          <li>History and evolution of Java</li>
+          <li>Java platform and JVM</li>
+          <li>Setting up Java Development Environment</li>
+      </ul>
+      
+      <h4>1.2. Object-Oriented Programming (OOP) in Java</h4>
+      <ul>
+          <li>Classes and objects</li>
+          <li>Inheritance and polymorphism</li>
+          <li>Encapsulation and abstraction</li>
+      </ul>
+      
+      <h3>2. Core Java Programming</h3>
+      
+      <h4>2.1. Language Fundamentals</h4>
+      <ul>
+          <li>Variables, data types, and operators</li>
+          <li>Control flow statements (if-else, switch-case)</li>
+          <li>Loops (for, while, do-while)</li>
+          <li>Arrays and strings</li>
+      </ul>
+      
+      <h4>2.2. Methods and Functions</h4>
+      <ul>
+          <li>Defining methods</li>
+          <li>Method overloading and overriding</li>
+          <li>Passing parameters</li>
+          <li>Recursive functions</li>
+      </ul>
+      
+      <h3>3. Advanced Java Concepts</h3>
+      
+      <h4>3.1. Exception Handling</h4>
+      <ul>
+          <li>Understanding exceptions</li>
+          <li>Handling exceptions using try-catch blocks</li>
+          <li>Throwing and catching exceptions</li>
+          <li>Custom exceptions</li>
+      </ul>
+      
+      <h4>3.2. Multithreading</h4>
+      <ul>
+          <li>Introduction to threads</li>
+          <li>Creating and managing threads</li>
+          <li>Synchronization and thread safety</li>
+          <li>Concurrency issues and solutions</li>
+      </ul>
+      
+      <h3>4. Java Collections Framework</h3>
+      
+      <h4>4.1. Overview of Collections</h4>
+      <ul>
+          <li>Collection interfaces (List, Set, Map)</li>
+          <li>Understanding ArrayList, LinkedList, HashSet, HashMap</li>
+          <li>Iterating through collections</li>
+          <li>Sorting and searching collections</li>
+      </ul>
+      
+      <h4>4.2. Generics</h4>
+      <ul>
+          <li>Introduction to generics</li>
+          <li>Generic classes and methods</li>
+          <li>Wildcard types</li>
+      </ul>
+      
+      <h3>5. Java EE (Enterprise Edition)</h3>
+      
+      <h4>5.1. Servlets and JSP</h4>
+      <ul>
+          <li>Introduction to web applications</li>
+          <li>Servlet lifecycle and API</li>
+          <li>JSP syntax and elements</li>
+          <li>Handling form data</li>
+      </ul>
+      
+      <h4>5.2. JDBC (Java Database Connectivity)</h4>
+      <ul>
+          <li>Connecting to databases</li>
+          <li>Executing SQL queries</li>
+          <li>Handling transactions</li>
+          <li>Using PreparedStatement and CallableStatement</li>
+      </ul>
+      
+      <h3>6. Java Frameworks and Tools</h3>
+      
+      <h4>6.1. Spring Framework</h4>
+      <ul>
+          <li>Introduction to Spring</li>
+          <li>Dependency Injection (DI) and Inversion of Control (IoC)</li>
+          <li>Spring MVC architecture</li>
+          <li>Spring Boot introduction</li>
+      </ul>
+      
+      <h4>6.2. Hibernate Framework</h4>
+      <ul>
+          <li>Introduction to ORM (Object-Relational Mapping)</li>
+          <li>Mapping entities and relationships</li>
+          <li>CRUD operations with Hibernate</li>
+          <li>Transactions and caching</li>
+      </ul>
+      
+      <h3>7. Java Testing and Debugging</h3>
+      
+      <h4>7.1. Unit Testing with JUnit</h4>
+      <ul>
+          <li>Introduction to unit testing</li>
+          <li>Writing and running JUnit tests</li>
+          <li>Test-driven development (TDD)</li>
+      </ul>
+      
+      <h4>7.2. Debugging Techniques</h4>
+      <ul>
+          <li>Debugging tools and practices</li>
+          <li>Setting breakpoints and watching variables</li>
+          <li>Handling runtime errors</li>
+      </ul>
+      
+      <h3>8. Java Best Practices</h3>
+      
+      <h4>8.1. Code Quality and Style</h4>
+      <ul>
+          <li>Coding conventions</li>
+          <li>Code refactoring techniques</li>
+          <li>Writing clean and maintainable code</li>
+      </ul>
+      
+      <h4>8.2. Performance Optimization</h4>
+      <ul>
+          <li>Optimizing Java applications</li>
+          <li>Memory management and garbage collection</li>
+          <li>Profiling tools</li>
+      </ul>
+      
+      <h3>9. Real-World Java Applications</h3>
+      
+      <h4>9.1. Case Studies</h4>
+      <ul>
+          <li>Examples from enterprise applications</li>
+          <li>Scalability and performance challenges</li>
+      </ul>
+      
+      <h4>9.2. Capstone Project</h4>
+      <ul>
+          <li>Developing a full-stack Java application</li>
+          <li>Implementing best practices</li>
+          <li>Presenting the project and receiving feedback</li>
+      </ul>
+      
+      <h3>10. Resources and Next Steps</h3>
+      
+      <h4>10.1. Continuing Education</h4>
+      <ul>
+          <li>Recommended books, blogs, and online courses</li>
+          <li>Joining Java community forums and user groups</li>
+      </ul>
+      
+      <h4>10.2. Certification Preparation</h4>
+      <ul>
+          <li>Overview of Java certification exams (e.g., Oracle Certified Java Programmer)</li>
+          <li>Study tips and resources</li>
+      </ul>
+      
+  </div>
+</div>
+<div id="modal-python" class="modal">
+  <div class="modal-content">
+      <span class="close" onclick="hideModal('python')">&times;</span>
+      <h2>Python and Machine Learning Curriculum</h2>
+      
+      <h3>1. Introduction to Python</h3>
+      
+      <h4>1.1. Python Basics</h4>
+      <ul>
+          <li>Introduction to Python programming language</li>
+          <li>Python syntax and data types</li>
+          <li>Control flow statements (if-else, loops)</li>
+          <li>Functions and modules</li>
+      </ul>
+      
+      <h3>2. Advanced Python Programming</h3>
+      
+      <h4>2.1. Object-Oriented Programming (OOP) in Python</h4>
+      <ul>
+          <li>Classes and objects</li>
+          <li>Inheritance and polymorphism</li>
+          <li>Encapsulation and abstraction</li>
+      </ul>
+      
+      <h4>2.2. File Handling and Exception Handling</h4>
+      <ul>
+          <li>Reading and writing files</li>
+          <li>Handling exceptions with try-except blocks</li>
+          <li>Using context managers</li>
+      </ul>
+      
+      <h3>3. Python Libraries for Data Science</h3>
+      
+      <h4>3.1. NumPy</h4>
+      <ul>
+          <li>Introduction to NumPy arrays</li>
+          <li>Array operations and broadcasting</li>
+          <li>Linear algebra with NumPy</li>
+      </ul>
+      
+      <h4>3.2. Pandas</h4>
+      <ul>
+          <li>Introduction to Pandas DataFrames</li>
+          <li>Data manipulation and cleaning</li>
+          <li>Grouping and aggregating data</li>
+      </ul>
+      
+      <h4>3.3. Matplotlib and Seaborn</h4>
+      <ul>
+          <li>Creating basic plots with Matplotlib</li>
+          <li>Statistical data visualization with Seaborn</li>
+          <li>Customizing plots and adding annotations</li>
+      </ul>
+      
+      <h3>4. Introduction to Machine Learning</h3>
+      
+      <h4>4.1. Machine Learning Basics</h4>
+      <ul>
+          <li>Overview of supervised vs unsupervised learning</li>
+          <li>Model training and evaluation</li>
+          <li>Types of machine learning algorithms</li>
+      </ul>
+      
+      <h4>4.2. Scikit-Learn</h4>
+      <ul>
+          <li>Introduction to Scikit-Learn library</li>
+          <li>Building and evaluating machine learning models</li>
+          <li>Feature selection and preprocessing</li>
+      </ul>
+      
+      <h4>4.3. TensorFlow and Keras</h4>
+      <ul>
+          <li>Introduction to neural networks with TensorFlow</li>
+          <li>Building deep learning models with Keras</li>
+          <li>Training models and evaluating performance</li>
+      </ul>
+      
+      <h3>5. Real-World Applications of Machine Learning</h3>
+      
+      <h4>5.1. Natural Language Processing (NLP)</h4>
+      <ul>
+          <li>Text preprocessing and tokenization</li>
+          <li>Sentiment analysis and text classification</li>
+          <li>Named Entity Recognition (NER)</li>
+      </ul>
+      
+      <h4>5.2. Computer Vision</h4>
+      <ul>
+          <li>Image preprocessing and feature extraction</li>
+          <li>Object detection and image classification</li>
+          <li>Face recognition and image segmentation</li>
+      </ul>
+      
+      <h3>6. Deployment and Productionization</h3>
+      
+      <h4>6.1. Model Deployment</h4>
+      <ul>
+          <li>Deploying machine learning models with Flask</li>
+          <li>Containerization with Docker</li>
+          <li>Cloud deployment options (AWS, GCP, Azure)</li>
+      </ul>
+      
+      <h4>6.2. Monitoring and Scaling</h4>
+      <ul>
+          <li>Monitoring model performance</li>
+          <li>Scaling machine learning applications</li>
+          <li>Handling updates and maintenance</li>
+      </ul>
+      
+      <h3>7. Resources and Next Steps</h3>
+      
+      <h4>7.1. Continuing Education</h4>
+      <ul>
+          <li>Recommended books, blogs, and online courses</li>
+          <li>Joining Python and ML communities</li>
+      </ul>
+      
+      <h4>7.2. Certification Preparation</h4>
+      <ul>
+          <li>Overview of relevant certifications (e.g., TensorFlow Developer)</li>
+          <li>Study tips and resources</li>
+      </ul>
+      
+  </div>
+</div>
+<div class="form-container">
+    <div class="form-toggle" onclick="toggleForm()">
+        📝 <!-- Emoji for the form toggle -->
+    </div>
+    <div class="form-content" id="formContent">
+        <form action="https://api.web3forms.com/submit" method="POST" id="contactForm" class="hidden">
+            <h2>Contact Form</h2>
+            <input type="hidden" name="access_key" value="4e92995d-8b7c-4aa7-a250-f7a8097c5e6a">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="contact">Contact:</label>
+            <input type="tel" id="contact" name="contact" required>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</div>
+</div>
+
+    <script>
+      function scrollCourses(direction) {
+        const courseList = document.querySelector(".course-list");
+        const scrollAmount = direction === "left" ? -300 : 300;
+        courseList.scrollBy({
+          left: scrollAmount,
+          behavior: "smooth",
+        });
+      }
+
+      function showModal(course) {
+        document.getElementById(`modal-${course}`).style.display = "block";
+      }
+
+      function hideModal(course) {
+        document.getElementById(`modal-${course}`).style.display = "none";
+      }
+      
+    
+    const text = "Welcome to NextGen Technologies<br>Join With Us<br>Elevate Your Skills"; // Text to type out
+    const delay = 100; // Delay between each letter in milliseconds
+
+    const typingElement = document.getElementById('typing-text');
+    let index = 0;
+
+function typeWriter() {
+  if (index < text.length) {
+    if (text.charAt(index) === '<') {
+      // Find the closing '>' to append the entire tag at once
+      const endIndex = text.indexOf('>', index);
+      typingElement.innerHTML += text.substring(index, endIndex + 1);
+      index = endIndex + 1;
+    } else {
+      typingElement.innerHTML += text.charAt(index);
+      index++;
+    }
+    setTimeout(typeWriter, delay);
+  }
+}
+
+// Call the function to start typing effect
+typeWriter();
+
+document.addEventListener('DOMContentLoaded', function() {
+    const reviews = document.querySelectorAll('.review');
+    let index = 0;
+  
+    function showReview() {
+      reviews.forEach(review => review.classList.remove('active'));
+      reviews[index].classList.add('active');
+      index = (index + 1) % reviews.length;
+    }
+  
+    setInterval(showReview, 2000); // Show next review every 5 seconds
+  });
+  document.addEventListener('DOMContentLoaded', function() {
+    const navToggle = document.querySelector('.nav-toggle');
+    const navLinks = document.querySelector('.nav-links');
+
+    navToggle.addEventListener('click', function() {
+        this.classList.toggle('active'); // Toggle active class on nav-toggle
+        navLinks.classList.toggle('active'); // Toggle active class on nav-links
+    });
+});
+document.addEventListener('DOMContentLoaded', function() {
+    var topNavbar = document.querySelector('.top-navbar');
+    var mainNavbar = document.querySelector('.main-navbar');
+    var lastScrollTop = 0;
+
+    window.addEventListener('scroll', function() {
+        var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+        if (scrollTop > lastScrollTop) {
+            // Scrolling down
+            topNavbar.style.top = '-60px'; // Adjust to hide the top navbar
+            mainNavbar.style.top = '0'; // Fix the main navbar to the top
+        } else {
+            // Scrolling up
+            topNavbar.style.top = '0';
+            mainNavbar.style.top = '40px'; // Adjust this to align with the hidden top navbar
+        }
+
+        lastScrollTop = scrollTop;
+    });
+});
+document.addEventListener('DOMContentLoaded', () => {
+    const visitCountDisplay = document.getElementById('visit-count');
+    
+    // Get the current visit count from localStorage
+    let visitCount = localStorage.getItem('visitCount');
+    
+    if (visitCount) {
+        visitCount = parseInt(visitCount) + 1;
+    } else {
+        visitCount = 1;
+    }
+    
+    // Update the visit count in localStorage
+    localStorage.setItem('visitCount', visitCount);
+    
+    // Display the visit count
+    visitCountDisplay.textContent = visitCount;
+});
+
+
+
+    </script>
+  </body>
+</html>
