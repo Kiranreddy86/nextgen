@@ -910,7 +910,7 @@ body, html {
   .home-bg {
       width: 100%;
       height: 100vh;
-      background-image: url('images/front3.jpg'), url('images/front2.jpg'), url('images/front.jpg');
+      background-image: url('images/front3.jpg');
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed;
