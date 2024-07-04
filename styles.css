@@ -133,93 +133,105 @@ body, html {
 
 
 @media (max-width: 768px) {
-  .top-navbar {
-      display: none; /* Hide the top navbar on smaller screens */
+    .top-navbar {
+        display: none; /* Hide the top navbar on smaller screens */
+    }
+  
+    /* Ensure no extra side scrolling */
+    html, body {
+        overflow-x: hidden;
+    }
+  
+    /* Responsive styles for smaller screens */
+    .main-navbar {
+        position: fixed;
+        margin-top: -8.5%;
+        flex-direction: column;
+        align-items: center; /* Center items vertically */
+        padding: 10px;
+        position: relative;
+        width: 100%; /* Ensure full width for mobile */
+    }
+  
+    .main-navbar .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center; /* Center items vertically */
+        margin-bottom: 10px;
+        margin-top: -20px;
+        width: 100%; /* Ensure logo container is full width */
+    }
+  
+    .main-navbar .nav-toggle {
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        top: 50%; /* Center vertically */
+        transform: translateY(-50%);
+        right: 10px;
+        z-index: 1000;
+    }
+  
+    .main-navbar .nav-toggle span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background-color: #fff;
+        margin: 5px 0;
+        transition: transform 0.4s ease-in-out;
+    }
+  
+    .main-navbar .nav-toggle.active span:first-child {
+        transform: rotate(45deg) translate(2px, 2px);
+    }
+  
+    .main-navbar .nav-toggle.active span:nth-child(2) {
+        opacity: 0;
+    }
+  
+    .main-navbar .nav-toggle.active span:last-child {
+        transform: rotate(-45deg) translate(2px, -2px);
+    }
+  
+    .main-navbar .nav-links {
+        flex-direction: column;
+        align-items: center; /* Center items vertically */
+        width: 100%;
+        display: none;
+        position: absolute;
+        top: 100%; /* Position dropdown below navbar */
+        left: 0;
+       
+        background-color: #0010c1;
+        color: #fff;
+        
+        border-radius: 8px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+        overflow: hidden;
+        max-height: 0;
+        transition: max-height 0.2s ease-out;
+    }
+  
+    .main-navbar .nav-links.active {
+        display: flex;
+        max-height: 500px; /* Set maximum height for dropdown */
+        overflow-y: auto; /* Enable scrolling for overflow content */
+    }
+  
+    .main-navbar .nav-links a {
+        padding: 15px 20px;
+        width: 100%;
+        text-align: center; /* Center align text */
+        color: #fff;
+        
+        text-decoration: none; /* Remove default underline */
+    }
+  
+    .main-navbar .nav-links a:hover {
+        background-color: #0044cc;
+    }
   }
-
-  /* Responsive styles for smaller screens */
-  .main-navbar {
-      position: fixed;
-      margin-top: -8.5%;
-      flex-direction: column;
-      align-items: center; /* Center items vertically */
-      padding: 10px;
-      position: relative;
-  }
-
-  .main-navbar .logo {
-      justify-content: center;
-      margin-bottom: 10px;
-  }
-
-  .main-navbar .nav-toggle {
-      display: block;
-      cursor: pointer;
-      position: absolute;
-      top: 50%; /* Center vertically */
-      transform: translateY(-50%);
-      right: 10px;
-      z-index: 1000;
-  }
-
-  .main-navbar .nav-toggle span {
-      display: block;
-      width: 25px;
-      height: 3px;
-      background-color: #fff;
-      margin: 5px 0;
-      transition: transform 0.4s ease-in-out;
-  }
-
-  .main-navbar .nav-toggle.active span:first-child {
-      transform: rotate(45deg) translate(2px, 2px);
-  }
-
-  .main-navbar .nav-toggle.active span:nth-child(2) {
-      opacity: 0;
-  }
-
-  .main-navbar .nav-toggle.active span:last-child {
-      transform: rotate(-45deg) translate(2px, -2px);
-  }
-
-  .main-navbar .nav-links {
-      flex-direction: column;
-      align-items: center; /* Center items vertically */
-      width: 100%;
-      display: none;
-      position: absolute;
-      top: 100%; /* Position dropdown below navbar */
-      left: 0;
-      background-color: #0010c1;
-      color: #fff;
-      border-radius: 8px;
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-      z-index: 1000;
-      overflow: hidden;
-      max-height: 0;
-      transition: max-height 0.2s ease-out;
-  }
-
-  .main-navbar .nav-links.active {
-      display: flex;
-      max-height: 500px; /* Set maximum height for dropdown */
-      overflow-y: auto; /* Enable scrolling for overflow content */
-  }
-
-  .main-navbar .nav-links a {
-      padding: 15px 20px;
-      width: 100%;
-      text-align: center; /* Center align text */
-      color: #fff;
-      text-decoration: none; /* Remove default underline */
-  }
-
-  .main-navbar .nav-links a:hover {
-      background-color: #0044cc;
-  }
-}
-
 
 
 
